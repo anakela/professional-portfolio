@@ -51,10 +51,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My Process
 
+I started this project by outlining the elements I wanted to feature in my HTML file.  I linked my CSS files to the HTML file as well.
+
 ### Built With
 
 - Semantic HTML5 markup
 - CSS
+- VSCode
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -86,8 +89,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful Resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This site provided the reset.css code I needed.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
