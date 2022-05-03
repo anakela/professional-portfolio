@@ -1,4 +1,4 @@
-# Project Name - change to the name of your project
+# Advanced CSS Challenge: Professional Portfolio
 
 ## Table of Contents
 
@@ -22,15 +22,45 @@
 
 ### The Challenge
 
-Description of the assignment should go here
+>Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
+
+>A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can't be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies.
+
+>With these points in mind, in this Challenge you'll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It's a win-win that you'll likely be grateful for in the future!
+
+>>**NOTE**
+>>If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+
+>Let's look at what a user story written from the perspective of a hiring manager might look like. As you might remember, we follow the AS AN / I WANT / SO THAT format.
 
 ### User Story
 
-Add the user story here
+>
+```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
 ### Acceptance Criteria
 
-Add acceptance criteria here
+>Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager's needs:
+
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
 
 ### Screenshot
 
@@ -90,6 +120,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful Resources
 
 - [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This site provided the reset.css code I needed.
+- [How to create a Readme.md file?](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3) - This site listed several helpful ways to label content in a readme.md file.
+- [Advanced CSS Challenge: Professional Portfolio](https://courses.bootcampspot.com/courses/1693/assignments/26716?module_item_id=537675) - This is where I pulled my quotes for the Challenge, User Story, and Acceptance Criteria.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
