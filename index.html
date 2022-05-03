@@ -6,34 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angela Soto's Portfolio | Web Design & Development</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Water+Brush&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
 
     <!-- Header goes here. -->
     <header>
+        <section class="navigation">
+            <!-- Page's main title goes here. -->
+            <h1>Angela's Portfolio</h1>
 
-        <!-- Page's main title goes here. -->
-        <h1>Angela's Portfolio</h1>
-
-        <!-- Insert nav bar here. -->
-        <nav>
-            <ul>
-                <li><a href="#about" title="About Angela">About Me</a></li>
-                <li><a href="#work" title="Angela's Work">Work</a></li>
-                <li><a href="#contact" title="Contact Angela">Contact Me</a></li>
-                <li><a href="#resume" title="Angela's Resume">Resume</a></li>
-                <li><a href="" title=""></a></li>
-                <li><a href="" title=""></a></li>
-            </ul>
-        </nav>
+            <!-- Insert nav bar here. -->
+            <nav>
+                <a href="#about" title="About Angela">About Me</a>
+                <a href="#work" title="Angela's Work">Work</a>
+                <a href="#contact" title="Contact Angela">Contact Me</a>
+                <a href="#resume" title="Angela's Resume">Resume</a>
+            </nav>
+        </section>
 
         <!-- Add a hero image here. -->
         <section class="hero-image">
-            <div>
+            <div class="hero-text">
                 <h2>
                     Providing Aesthetic, Easy-to-Use Website Solutions
                 </h2>
@@ -56,6 +53,7 @@
             <p>
                 Needless to say, my desire to combine art with technology led to:
             </p>
+            <p>
                 <ul class="schools">
                     <li>A BA in Art from Southern Oregon University</li>
                     <li>A Master's in Web Design & Development from Southern New Hampshire University</li>
@@ -64,6 +62,7 @@
                     <li></li>
                     <li></li>
                 </ul>
+            </p>
             <p>
                 Take a look at <a href="#work" title="View my work">my work</a>, or <a href="#contact" title="Contact me">contact me here</a>.  I look forward to working with you!
             </p>
@@ -73,6 +72,7 @@
 
         <section id="work">
             <h2>My Work</h2>
+            <br />
             <div class="flex-container">
                 <a href="https://github.com/anakela/homework-1" title="Homework 1 - HTML CSS Git Challenge: Code Refactor" target="_blank">
                     <div>
@@ -113,14 +113,13 @@
             <p>
                 I love connecting with people!  Please feel free to reach out to me using any of the means below.
             </p>
-            <ul class="contactinfo">
-                <li>📱 <a href="tel:8086518336" title="Call Angela.">(808) 651-8336</a></li>
-                <li>📧 <a href="mailto:angie@anakela.com" title="Send me a message.">Email Me</a></li>
-                <li>🖥️ <a href="https://www.linkedin.com/in/anakela/" title="View my LinkedIn profile!" target="_blank">LinkedIn</a></li>
-                <li>🐱 <a href="https://github.com/anakela" title="View my GitHub!" target="_blank">GitHub</a></li>
-                <li>🎨 <a href="https://www.deviantart.com/red-rogue-angel" title="Check out my earlier works of art here" target="_blank">DeviantArt</a></li>
-                <li></li>
-            </ul>
+            <div class="buttons">
+                <button class="contactbutton">📱 <a href="tel:8086518336" title="Call Angela.">(808) 651-8336</a></button>
+                <button class="contactbutton">📧 <a href="mailto:angie@anakela.com" title="Send me a message.">Email Me</a></button>
+                <button class="contactbutton">🖥️ <a href="https://www.linkedin.com/in/anakela/" title="View my LinkedIn profile!" target="_blank">LinkedIn</a></button>
+                <button class="contactbutton">🐱 <a href="https://github.com/anakela" title="View my GitHub!" target="_blank">GitHub</a></button>
+                <button class="contactbutton">🎨 <a href="https://www.deviantart.com/red-rogue-angel" title="Check out my earlier works of art here" target="_blank">DeviantArt</a></button>
+            </div>
         </section>
         
         <hr />
