@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 18px;
 }
 
 header {
@@ -17,7 +17,12 @@ nav {
 }
 
 section {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#contact li {
+    display: inline;
 }
 
 main {
@@ -32,6 +37,7 @@ h1 {
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
     font-size: 200%;
+    padding: 10px;
 }
 
 h2 {
@@ -39,4 +45,9 @@ h2 {
     /* font-family: 'Water Brush', cursive; */
     font-weight: bold;
     font-size: 150%;
+    padding: 10px;
+}
+
+hr {
+    margin: 0 auto;
 }
