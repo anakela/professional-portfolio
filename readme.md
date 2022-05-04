@@ -122,6 +122,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [How to Create a Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - [Figma](https://www.figma.com/) - I used Figma to create a wireframe/prototype of the site I wanted to build.
 - [Adobe Stock](https://stock.adobe.com/) - I used this to find placeholder and stock images.
+- Scott Nelson (TA)'s README.md Template - This _greatly_ helped me with formatting and creating a README.md file.
 - [Advanced CSS Challenge: Professional Portfolio](https://courses.bootcampspot.com/courses/1693/assignments/26716?module_item_id=537675) - This is where I pulled my quotes for the Challenge, User Story, and Acceptance Criteria.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
