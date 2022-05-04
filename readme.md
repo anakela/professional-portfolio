@@ -66,16 +66,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ####HTML Without CSS
 ![HTML Without CSS](./assets/screenshots/html-without-css.png)
 
-####Title Here
-![]()
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+####Figma Wireframe/Prototype
+![Figma Prototype](./assets/screenshots/figma-wireframe.png)
+![Figma Prototype Large](./assets/screenshots/figma-wireframe-large.png)
 
 ### Links
 
@@ -84,13 +77,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My Process
 
-I started this project by outlining the elements I wanted to feature in my HTML file.  I linked my CSS files to the HTML file as well.
+- I started this project by outlining the elements I wanted to feature in my HTML file.  I linked my CSS files to the HTML file as well.
+- Once I completed the initial HTML, I created a wireframe/prototype in Figma so that I could better envision the site I wanted to build.
 
 ### Built With
 
 - Semantic HTML5 markup
 - CSS
 - VSCode
+- Figma
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -125,6 +120,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This site provided the reset.css code I needed.
 - [How to create a Readme.md file?](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3) - This site listed several helpful ways to label content in a readme.md file.
 - [How to Create a Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+- [Figma](https://www.figma.com/) - I used Figma to create a wireframe/prototype of the site I wanted to build.
+- [Adobe Stock](https://stock.adobe.com/) - I used this to find placeholder and stock images.
 - [Advanced CSS Challenge: Professional Portfolio](https://courses.bootcampspot.com/courses/1693/assignments/26716?module_item_id=537675) - This is where I pulled my quotes for the Challenge, User Story, and Acceptance Criteria.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**

@@ -90,3 +90,9 @@ h2 {
 hr {
     margin: 0 auto;
 }
+
+@media  and (min-width: 996px) {
+    section.hero-image {
+        display: none;
+    }
+}
