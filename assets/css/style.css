@@ -9,6 +9,10 @@
     --dark-yell: #E88555;
 }
 
+html {
+    scroll-padding-top: 72px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
