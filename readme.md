@@ -122,10 +122,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [How to Create a Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - [Figma](https://www.figma.com/) - I used Figma to create a wireframe/prototype of the site I wanted to build.
 - [Adobe Stock](https://stock.adobe.com/) - I used this to find placeholder and stock images.
+- [Fixed Headers, On-Page Links, and Overlapping Content, Oh My!](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/) - This helped me overcome an issue I experienced with my sticky header not scrolling all the way down the page.
 - Scott Nelson (TA)'s README.md Template - This _greatly_ helped me with formatting and creating a README.md file.
 - [Advanced CSS Challenge: Professional Portfolio](https://courses.bootcampspot.com/courses/1693/assignments/26716?module_item_id=537675) - This is where I pulled my quotes for the Challenge, User Story, and Acceptance Criteria.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
@@ -135,6 +134,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
+
+I worked with several other students in various study sessions.  The ones who helped me with issues I was facing are as follows:
+
+- Michael Barrett
+- Nolan Spence
+- Nifer Kilakila
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
