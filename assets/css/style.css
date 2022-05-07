@@ -9,8 +9,9 @@
     --dark-yell: #E88555;
 }
 
+/* This allowed my sticky header to stay in place and not overlap headers while scrolling/linking. */
 html {
-    scroll-padding-top: 72px;
+    scroll-padding-top: 74px;
 }
 
 body {
@@ -102,26 +103,52 @@ div.hero-text {
 main {
     /* position: inherit; */
     display: block;
+    margin: 10px 1%;
+    line-height: 1.5;
+    
 }
 
 main section {
     display: flex;
     flex-wrap: wrap;
     min-height: 200px;
-    margin: 15px auto;
+    margin: 0 auto;
     padding: 10px;
 }
 
+section#about {
+    margin-top: 74px;
+}
+
+section#about h2 {
+    background-color: var(--dark-green);
+}
+
+section#work h2 {
+    background-color: var(--dark-purp);
+}
+
+section#contact h2 {
+    background-color: var(--dark-pink);
+}
+
+section#contact#buttons {
+    display: inline-block;
+}
+
 main h2 {
-    display: block;
+    display: inline-block;
     text-transform: uppercase;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: var(--light-pink);
+    width: 100%;
+    /* margin-top: 74px; */
 }
 
 main section {
     display: flex;
     flex-wrap: wrap;
+    /* margin-top: 74px; */
 }
 
 #work div {
@@ -131,12 +158,14 @@ main section {
 /* Trying to get this to create a border around the divs in the flex-container class. */
 section .flex-container {
     display: flex;
-    /* flex-wrap: wrap;
-    flex-direction: column; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
     min-height: 200px;
     border: var(--dark-purp) 5px solid;
     border-radius: 15px;
     margin: 10px;
+    padding: 5%;
 }
 
 /* main section div .flex-container {
@@ -164,6 +193,10 @@ h1 {
     font-weight: bold;
     font-size: 300%;
     padding: 10px;
+}
+
+h1 a {
+    text-decoration: none;
 }
 
 h2 {
