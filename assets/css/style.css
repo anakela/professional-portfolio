@@ -116,34 +116,55 @@ main section {
     padding: 10px;
 }
 
-section#about {
-    margin-top: 74px;
-}
-
-section#about h2 {
-    background-color: var(--dark-green);
-}
-
-section#work h2 {
-    background-color: var(--dark-purp);
-}
-
-section#contact h2 {
-    background-color: var(--dark-pink);
-}
-
-section#contact#buttons {
-    display: inline-block;
-}
-
 main h2 {
     display: inline-block;
     text-transform: uppercase;
     /* overflow-x: hidden; */
     background-color: var(--light-pink);
     width: 100%;
+    border-radius: 15px;
     /* margin-top: 74px; */
 }
+
+/* The code below updates the sectionss inside of main. */
+#about {
+    margin-top: 74px;
+}
+
+#about h2 {
+    background-image: linear-gradient(to right, #7DAF93, #fff);
+}
+
+#work {
+    /* This property centers all content in the work ID. */
+    justify-content: center;
+}
+
+#work h2 {
+    background-image: linear-gradient(to right, #C3A6DC, #fff);
+}
+
+#work div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    min-height: 210px;
+    /* justify-content: center; */
+}
+
+#contact h2 {
+    background-image: linear-gradient(to right, #E6999F, #fff);
+}
+
+#contact#buttons {
+    display: inline-block;
+}
+
+#resume h2 {
+    background-image: linear-gradient(to right, #E88555, #fff);
+}
+
+
 
 main section {
     display: flex;
@@ -151,17 +172,15 @@ main section {
     /* margin-top: 74px; */
 }
 
-#work div {
-    display: flex;
-}
+
 
 /* Trying to get this to create a border around the divs in the flex-container class. */
 section .flex-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    /* justify-content: space-evenly; */
-    min-height: 200px;
+    /* flex-direction: row;
+    justify-content: center; */
+    /* min-height: 210px; */
     border: var(--dark-purp) 5px solid;
     border-radius: 15px;
     margin: 10px;
