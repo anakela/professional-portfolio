@@ -123,10 +123,9 @@ main h2 {
     background-color: var(--light-pink);
     width: 100%;
     border-radius: 15px;
-    /* margin-top: 74px; */
 }
 
-/* The code below updates the sectionss inside of main. */
+/* The code below updates the sections inside of main. */
 #about {
     margin-top: 74px;
 }
@@ -164,16 +163,6 @@ main h2 {
     background-image: linear-gradient(to right, #E88555, #fff);
 }
 
-
-
-main section {
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-top: 74px; */
-}
-
-
-
 /* Trying to get this to create a border around the divs in the flex-container class. */
 section .flex-container {
     display: flex;
@@ -187,23 +176,8 @@ section .flex-container {
     padding: 5%;
 }
 
-/* main section div .flex-container {
-    min-height: 200px;
-} */
-
-
 p {
     padding: 10px;
-}
-
-#contact li {
-    display: inline;
-}
-
-
-
-aside {
-    
 }
 
 h1 {
@@ -228,6 +202,7 @@ h2 {
 
 hr {
     margin: 0 auto;
+    border-top: 1px dotted var(--dark-yell);
 }
 
 footer {
