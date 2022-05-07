@@ -125,6 +125,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Fixed Headers, On-Page Links, and Overlapping Content, Oh My!](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/) - This helped me overcome an issue I experienced with my sticky header not scrolling all the way down the page.
 - Scott Nelson (TA)'s README.md Template - This _greatly_ helped me with formatting and creating a README.md file.
 - [IconFinder.com - Multimedia icon pack by Sergey Ershov](https://www.iconfinder.com/iconsets/multimedia-75)
+- [How to Style HR](https://www.w3schools.com/howto/howto_css_style_hr.asp)
 - [Advanced CSS Challenge: Professional Portfolio](https://courses.bootcampspot.com/courses/1693/assignments/26716?module_item_id=537675) - This is where I pulled my quotes for the Challenge, User Story, and Acceptance Criteria.
 
 ## Author
