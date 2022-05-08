@@ -23,6 +23,8 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 a {
@@ -79,7 +81,7 @@ nav a {
 }
 
 section.hero-image {
-    background-image: /*linear-gradient(()), rgba(255, 255, 255, 0),*/ url("../images/pink-computer-hero.jpg");
+    background-image: url("../images/pink-computer-hero.jpg");
     height: 768px;
     background-position: center;
     background-repeat: no-repeat;
@@ -311,7 +313,6 @@ h1 a {
 
 h2 {
     font-family: 'Shadows Into Light', cursive;
-    /* font-family: 'Water Brush', cursive; */
     font-weight: bold;
     font-size: 150%;
     padding: 10px;
@@ -319,7 +320,6 @@ h2 {
 
 hr {
     margin: 15px auto;
-    /* padding: 10px; */
     border-top: 1px dotted var(--dark-yell);
     width: 100%;
 }
@@ -331,8 +331,21 @@ footer {
     padding: 10px;
 }
 
-@media  and (min-width: 996px) {
-    section.hero-image {
+/* For responsiveness on different screen sizes. */
+/* @media screen and (max-width: 768px) {
+    section #hero-image {
+        display: none;
+    }
+    div #hero-text {
         display: none;
     }
 }
+
+@media screen and (max-width: 600px) {
+    section #hero-image {
+        display: none;
+    }
+    div #hero-text {
+        display: none;
+    }
+} */
