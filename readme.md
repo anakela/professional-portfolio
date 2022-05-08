@@ -63,29 +63,33 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ### Screenshot
-####HTML Without CSS
+
+#### HTML Without CSS
 ![HTML Without CSS](./assets/screenshots/html-without-css.png)
 
-####Figma Wireframe/Prototype
+#### Figma Wireframe/Prototype
 ![Figma Prototype](./assets/screenshots/figma-wireframe.png)
 ![Figma Prototype Large](./assets/screenshots/figma-wireframe-large.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Homework 2](https://github.com/anakela/homework2)
+- Live Site URL: [https://anakela.github.io/homework2/](https://anakela.github.io/homework2)
 
 ## My Process
 
 - I started this project by outlining the elements I wanted to feature in my HTML file.  I linked my CSS files to the HTML file as well.
 - Once I completed the initial HTML, I created a wireframe/prototype in Figma so that I could better envision the site I wanted to build.
+- Based on the wireframe/prototype, I began editing my CSS to turn the HTML document into what I had envisioned for the portfolio site.
+- Once I had the basic CSS set up for desktop, I searched for images for the contact, work, and about me sections.  Once I added them to the images folder, I linked them to the HTML and CSS documents.
+
 
 ### Built With
 
-- Semantic HTML5 markup
+- Semantic HTML5 Markup
 - CSS
 - VSCode
 - Figma
+- Adobe Photoshop
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -117,23 +121,52 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful Resources
 
+#### CSS Resources
 - [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This site provided the reset.css code I needed.
-- [How to create a Readme.md file?](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3) - This site listed several helpful ways to label content in a readme.md file.
-- [How to Create a Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
-- [Figma](https://www.figma.com/) - I used Figma to create a wireframe/prototype of the site I wanted to build.
-- [Adobe Stock](https://stock.adobe.com/) - I used this to find placeholder and stock images.
+- [W3 Schools: How to Create a Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+- [W3 Schools: CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp)
 - [Fixed Headers, On-Page Links, and Overlapping Content, Oh My!](https://css-tricks.com/fixed-headers-on-page-links-and-overlapping-content-oh-my/) - This helped me overcome an issue I experienced with my sticky header not scrolling all the way down the page.
+- [W3 Schools: How to Style HR](https://www.w3schools.com/howto/howto_css_style_hr.asp)
+- [Stack Overflow: Making text background transparent but not text itself](https://stackoverflow.com/questions/15449280/making-text-background-transparent-but-not-text-itself) - I learned how to apply a background color with transparency to text using this resource.
+- [Hex to RGB Color Converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html) - This converter helped me change some of my hex codes to RGB so that I could apply opacity to backgrounds without applying it to the text in front of it.
+- [w3 Schools: How TO - Circles](https://www.w3schools.com/howto/howto_css_circles.asp) I learned how to create circles here, which was great for spacing out my photo and contact elements.
+- [W3 Schools: How To Create Rounded Images](https://www.w3schools.com/howto/howto_css_rounded_images.asp) - I learned how to place an image in a circle here.
+- [MDN Web Docs: box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+- [CodeAcademy: Help with preventing overlapping containers in flexbox](https://discuss.codecademy.com/t/help-with-preventing-overlapping-containers-in-flexbox/497286)
+- [Aligning Items in a Flex Container](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container)
+- [CSS Layout - Horizontal & Vertical Align](https://www.w3schools.com/css/css_align.asp)
+- [Stack Overflow: how to make navigation bar stretch across the page (HTML)](https://stackoverflow.com/questions/16629835/how-to-make-navigation-bar-stretch-across-the-page-html)
+- [How to Create a Sticky Navbar [CSS & JS]](https://alvarotrigo.com/blog/sticky-navbar/)
+- [Stack Overflow: How to keep the header static, always on top while scrolling?](https://stackoverflow.com/questions/3593594/how-to-keep-the-header-static-always-on-top-while-scrolling)
+- [Stack Overflow: h1 and nav on the same line](https://stackoverflow.com/questions/42397706/h1-and-nav-on-the-same-line)
+- [W3 Schools: How TO - Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
+- [MDN Web Docs: flex-basis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
+
+#### README.md Resources
+- [How to create a Readme.md file?](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3) - This site listed several helpful ways to label content in a readme.md file.
+- [HOw to create a Readme.md file?](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3)
 - Scott Nelson (TA)'s README.md Template - This _greatly_ helped me with formatting and creating a README.md file.
-- [IconFinder.com - Multimedia icon pack by Sergey Ershov](https://www.iconfinder.com/iconsets/multimedia-75)
-- [How to Style HR](https://www.w3schools.com/howto/howto_css_style_hr.asp)
+
+#### HTML Resources
+
+#### Wireframing/Prototyping Resources
+- [Figma](https://www.figma.com/) - I used Figma to create a wireframe/prototype of the site I wanted to build.
+
+#### Image & Icon Resources
+- [Adobe Stock](https://stock.adobe.com/) - I used this to find placeholder and stock images.
+- I used the following resources to find icons for my "Get in Touch" section:
+  - [IconFinder.com - Multimedia icon pack by Sergey Ershov](https://www.iconfinder.com/iconsets/multimedia-75) - I used this to find icons for phone number and email that were free for commercial use.
+  - [Where can I find DeviantArt's official logo and media files?](https://www.deviantartsupport.com/en/article/where-can-i-find-deviantarts-official-logo-and-media-files)
+  - [LinkedIn's Logos](https://brand.linkedin.com/downloads)
+  - [GitHub's Logos](https://github.com/logos)
+
+#### Other Resources
 - [Advanced CSS Challenge: Professional Portfolio](https://courses.bootcampspot.com/courses/1693/assignments/26716?module_item_id=537675) - This is where I pulled my quotes for the Challenge, User Story, and Acceptance Criteria.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- LinkedIn - [Angela Soto](https://www.linkedin.com/in/anakela/)
+- GitHub - [@anakela](https://github.com/anakela)
 
 ## Acknowledgments
 
@@ -143,6 +176,4 @@ I worked with several other students in various study sessions.  The ones who he
 - Nolan Spence
 - Nifer Kilakila
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I also had assistance from the AskBCS Learning Assistant Slack channel.

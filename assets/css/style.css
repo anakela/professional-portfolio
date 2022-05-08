@@ -1,3 +1,4 @@
+/* These are the theme colors I will use often in the design. */
 :root {
     --light-pink: #EDCED6;
     --dark-pink: #E6999F;
@@ -9,6 +10,7 @@
     --dark-yell: #E88555;
 }
 
+/* This property is applied to the entire HTML document and ensures that all child containers are constrained inside of their parent containers. */
 * {
     box-sizing: border-box;
 }
@@ -91,9 +93,10 @@ div.hero-text {
     position: absolute;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
+    transform: translate(-57%, 110%);
+    /* color: #fff; */
     font-size: 150%;
+    line-height: 1.25;
 }
 
 main {
