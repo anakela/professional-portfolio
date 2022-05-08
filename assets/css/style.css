@@ -187,6 +187,7 @@ section .flex-container {
 
 }
 
+/* WORK SECTION > PROJECT1 */
 #project1 {
     box-sizing: content-box;
     min-height: 400px;
@@ -199,10 +200,59 @@ section .flex-container {
     background-image: linear-gradient(to right, #E6999F, #fff);
 }
 
-#contact#buttons {
-    display: inline-block;
+.contact-circles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
 }
 
+/* .contact-circles img {
+    height: 10em;
+    width: 10em;
+    background-color: #000;
+    border-radius: 50%;
+    border: 1px #f00 solid;
+    display: inline-block;
+} */
+
+#phone {
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px var(--dark-pink) solid;
+    padding: 5px;
+}
+
+#email {
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px var(--dark-green) solid;
+    padding: 5px;
+}
+
+#linked-in {
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px var(--dark-purp) solid;
+    padding: 5px;
+}
+
+#github {
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px var(--dark-yell) solid;
+    padding: 5px;
+}
+
+#dev-art {
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px var(--dark-pink) solid;
+    padding: 5px;
+}
+
+
+/* RESUME SECTION */
 #resume h2 {
     background-image: linear-gradient(to right, #E88555, #fff);
 }
