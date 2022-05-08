@@ -122,6 +122,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful Resources
 
 #### CSS Resources
+
 - [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This site provided the reset.css code I needed.
 - [W3 Schools: How to Create a Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - [W3 Schools: CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp)
@@ -141,8 +142,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Stack Overflow: h1 and nav on the same line](https://stackoverflow.com/questions/42397706/h1-and-nav-on-the-same-line)
 - [W3 Schools: How TO - Hero Image](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 - [MDN Web Docs: flex-basis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
+- [W3 Schools: How TO - Responsive Text](https://www.w3schools.com/howto/howto_css_responsive_text.asp)
 
 #### README.md Resources
+
 - [How to create a Readme.md file?](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3) - This site listed several helpful ways to label content in a readme.md file.
 - [HOw to create a Readme.md file?](https://medium.com/analytics-vidhya/how-to-create-a-readme-md-file-8fb2e8ce24e3)
 - Scott Nelson (TA)'s README.md Template - This _greatly_ helped me with formatting and creating a README.md file.
@@ -150,9 +153,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 #### HTML Resources
 
 #### Wireframing/Prototyping Resources
+
 - [Figma](https://www.figma.com/) - I used Figma to create a wireframe/prototype of the site I wanted to build.
 
 #### Image & Icon Resources
+
 - [Adobe Stock](https://stock.adobe.com/) - I used this to find placeholder and stock images.
 - I used the following resources to find icons for my "Get in Touch" section:
   - [IconFinder.com - Multimedia icon pack by Sergey Ershov](https://www.iconfinder.com/iconsets/multimedia-75) - I used this to find icons for phone number and email that were free for commercial use.
@@ -161,6 +166,7 @@ Use this section to outline areas that you want to continue focusing on in futur
   - [GitHub's Logos](https://github.com/logos)
 
 #### Other Resources
+
 - [Advanced CSS Challenge: Professional Portfolio](https://courses.bootcampspot.com/courses/1693/assignments/26716?module_item_id=537675) - This is where I pulled my quotes for the Challenge, User Story, and Acceptance Criteria.
 
 ## Author
