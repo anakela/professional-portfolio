@@ -76,11 +76,6 @@ nav a {
     margin: auto;
 }
 
-section {
-    display: flex;
-    flex-direction: row;
-}
-
 section.hero-image {
     background-image: /*linear-gradient(()), rgba(255, 255, 255, 0),*/ url("../images/pink-computer-hero.jpg");
     height: 768px;
@@ -102,28 +97,36 @@ div.hero-text {
 }
 
 main {
-    /* position: inherit; */
-    display: block;
-    margin: 10px 1%;
-    line-height: 1.5;
-    
-}
-
-main section {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     min-height: 200px;
-    margin: 0 auto;
+    margin: 10px 1%;
     padding: 10px;
+    line-height: 1.5;
+    list-style: circle;
+}
+
+main ul {
+    list-style-type: circle;
+    margin-left: 3%;
 }
 
 main h2 {
     display: inline-block;
     text-transform: uppercase;
-    /* overflow-x: hidden; */
-    background-color: var(--light-pink);
     width: 100%;
     border-radius: 15px;
+}
+
+#img-circle {
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    background-color: #000;
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
 }
 
 /* Trying to get this to create a border around the divs in the flex-container class. */
@@ -141,6 +144,7 @@ section .flex-container {
 }
 
 /* The code below updates the sections inside of main. */
+/* ABOUT SECTION */
 #about {
     margin-top: 74px;
 }
@@ -149,6 +153,16 @@ section .flex-container {
     background-image: linear-gradient(to right, #7DAF93, #fff);
 }
 
+#about img {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--dark-green);
+    margin: 10px;
+    float: right;
+}
+
+/* WORK SECTION */
 #work {
     /* This property centers all content in the work ID. */
     justify-content: center;
@@ -180,6 +194,7 @@ section .flex-container {
 
 }
 
+/* CONTACT SECTION */
 #contact h2 {
     background-image: linear-gradient(to right, #E6999F, #fff);
 }
@@ -195,16 +210,6 @@ section .flex-container {
 p {
     padding: 10px;
     margin: 5px;
-}
-
-section ol, ul {
-    flex-direction: column;
-    list-style: circle;
-    clear: left;
-    float: left;
-    /* list-style-type:circle; */
-    /* list-style: none; */
-    margin-left: 5%;
 }
 
 h1 {
@@ -228,8 +233,10 @@ h2 {
 }
 
 hr {
-    margin: 0 auto;
+    margin: 15px auto;
+    /* padding: 10px; */
     border-top: 1px dotted var(--dark-yell);
+    width: 100%;
 }
 
 footer {
