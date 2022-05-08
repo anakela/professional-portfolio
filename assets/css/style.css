@@ -191,8 +191,8 @@ section .flex-container {
 #project1 {
     box-sizing: content-box;
     min-height: 400px;
-    flex-basis: 100%;
-
+    /* flex-basis: 100%; */
+    width: 100%;
 }
 
 /* CONTACT SECTION */
@@ -206,15 +206,6 @@ section .flex-container {
     justify-content: space-evenly;
     margin: auto;
 }
-
-/* .contact-circles img {
-    height: 10em;
-    width: 10em;
-    background-color: #000;
-    border-radius: 50%;
-    border: 1px #f00 solid;
-    display: inline-block;
-} */
 
 #phone {
     border-radius: 50%;
