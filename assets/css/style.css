@@ -222,7 +222,7 @@ main h2 {
 .flex-1 {
     display: flex;
     background-image: url("../../assets/images/homework-1.png");
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-end;
     background-repeat: no-repeat;
     background-position: center;
@@ -230,11 +230,11 @@ main h2 {
     width: 100%;
 }
 
-.proj-wrapper {
+div.proj-wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     /* margin: 10px 10px; */
     /* width: 100%; */
@@ -250,7 +250,7 @@ main h2 {
     background-repeat: no-repeat;
     background-position: center;
     width: 45vw;
-    margin: auto;
+    margin: 10px;
 }
 
 /* WORK SECTION > PROJECT 3 */
@@ -264,7 +264,7 @@ main h2 {
     background-repeat: no-repeat;
     background-position: center;
     width: 45vw;
-    margin: auto;
+    margin: 10px;
 }
 
 /* WORK SECTION > PROJECT 4 */
@@ -276,7 +276,7 @@ main h2 {
     background-repeat: no-repeat;
     background-position: center;
     width: 45vw;
-    margin: auto;
+    margin: 10px;
 }
 
 /* WORK SECTION > PROJECT 5 */
@@ -288,7 +288,7 @@ main h2 {
     background-repeat: no-repeat;
     background-position: center;
     width: 45vw;
-    margin: auto;
+    margin: 10px;
 }
 
 /* CONTACT SECTION */
