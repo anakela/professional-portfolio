@@ -87,7 +87,6 @@ nav a {
 
 /* HERO IMAGE */
 .hero-image {
-    /* position: absolute; */
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -97,18 +96,19 @@ nav a {
     height: 100vh;
     width: 100vw;
     margin: 0 auto;
-    /* width: auto; */
+    /* background-position-y: top;
+    background-position-x: center; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     /* position: relative; */
-    /* top: 74px; */
+    top: 74px;
 }
 
-section.hero-image img {
+/* section.hero-image img {
     height: auto;
     width: 100%;
-}
+} */
 
 /* HERO IMAGE TAGLINE */
 div.hero-text {
@@ -124,7 +124,7 @@ div.hero-text {
 
 /* MAIN */
 main {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     min-height: 200px;
@@ -159,16 +159,16 @@ main h2 {
 /* The code below updates the sections inside of main. */
 
 /* ABOUT SECTION */
-#about {
+/* #about {
     margin-top: 10px;
-}
+} */
 
 #about h2 {
     background-image: linear-gradient(to right, #7DAF93, #fff);
 }
 
 #about img {
-    width: 30vw;
+    width: 25vw;
     height: auto;
     border-radius: 50%;
     border: 3px solid var(--dark-green);
