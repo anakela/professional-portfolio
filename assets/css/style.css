@@ -221,7 +221,7 @@ main h2 {
 /* WORK SECTION > PROJECT 1 */
 .flex-1 {
     display: flex;
-    background-image: url("../../assets/images/homework-1.png");
+    background-image: url("../../assets/images/NaNarWORD.png");
     justify-content: center;
     align-items: flex-end;
     background-repeat: no-repeat;
@@ -246,7 +246,8 @@ div.proj-wrapper {
     flex-wrap: wrap;
     justify-content: flex-start; */
     align-items: flex-end;
-    background-image: url("../../assets/images/homework-2.png");
+    background-image: url("../../assets/images/homework-1.png");
+    
     background-repeat: no-repeat;
     background-position: center;
     width: 45vw;
@@ -260,7 +261,7 @@ div.proj-wrapper {
     flex-wrap: wrap;
     flex-direction: row; */
     align-items: flex-end;
-    background-image: url("../../assets/images/pattern.jpg");
+    background-image: url("../../assets/images/homework-2.png");
     background-repeat: no-repeat;
     background-position: center;
     width: 45vw;
