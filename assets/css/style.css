@@ -93,14 +93,14 @@ nav a {
     align-items: flex-start;
     justify-content: center;
     background-image: url("../images/pink-computer-hero.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 100vh;
     width: 100vw;
     margin: 0 auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-size: contain;
+    background-size: 100%;
+    /* background-size: contain; */
     top: 74px;
 }
 
@@ -273,7 +273,7 @@ div.proj-wrapper {
     /* display: flex;
     justify-content: flex-start; */
     align-items: flex-end;
-    background-image: url("../../assets/images/pattern.jpg");
+    background-image: url("../../assets/images/cover_art.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
