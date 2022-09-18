@@ -72,8 +72,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Figma Prototype Large](./assets/screenshots/figma-wireframe-large.png)
 
 ### Links
-- Solution URL: [Homework 2](https://github.com/anakela/homework2)
-- Live Site URL: [https://anakela.github.io/homework2/](https://anakela.github.io/homework2)
+- Solution URL: [Professional Portfolio](https://github.com/anakela/professional-portfolio)
+- Live Site URL: [https://anakela.github.io/professional-portfolio/](https://anakela.github.io/professional-portfolio/)
 
 ## My Process
 
